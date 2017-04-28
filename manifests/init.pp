@@ -1,7 +1,3 @@
-# == Class: timezone
-#
-# === timezone documentation
-#
 class timezone(
                             $manage_package        = true,
                             $package_ensure        = 'installed',
@@ -9,8 +5,8 @@ class timezone(
                             $locality              = 'Andorra',
                           ) inherits timezone::params {
 
-  class { '::timezone::install': } ->
-  class { '::timezone::config': } ->
-  Class['::timezone']
+  class { '::timezone::install': }
+  -> class { '::timezone::config': }
+  -> Class['::timezone']
 
 }
