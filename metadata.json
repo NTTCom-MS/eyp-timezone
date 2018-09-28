@@ -1,6 +1,6 @@
 {
   "name": "eyp-timezone",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "eyp",
   "summary": "sets timezone",
   "license": "Apache-2.0",
@@ -35,12 +35,16 @@
     {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [ "14.04", "16.04", "18.04" ]
+    },
+    {
+      "operatingsystem": "SLES",
+      "operatingsystemrelease": [ "11.3", "12.3" ]
     }
   ],
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 3.0.0"
+      "version_requirement": ">= 3.8.0"
     }
   ]
 }
