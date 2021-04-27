@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.8
+
+* added support for RHEL 8
+
 ## 0.1.7
 
 * bugfix SLES 11.3
