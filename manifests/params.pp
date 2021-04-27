@@ -11,7 +11,7 @@ class timezone::params {
         {
           $timedatectl=false
         }
-        /^7.*$/:
+        /^[7-8].*$/:
         {
           $timedatectl=true
         }
