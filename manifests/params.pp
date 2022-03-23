@@ -31,7 +31,7 @@ class timezone::params {
             {
               $timedatectl=false
             }
-            /^18.*$/:
+            /^18.*$|20.*$/:
             {
               $timedatectl=true
             }
