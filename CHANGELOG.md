@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.9
+
+* added Ubuntu 20 support
+
 ## 0.1.8
 
 * added support for RHEL 8
